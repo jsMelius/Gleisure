@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body { font-family: Arial, sans-serif; }
+    .header { text-align: center; margin-bottom: 20px; }
+    .section-title { margin-top: 20px; font-weight: bold; }
+    table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+    th, td { border: 1px solid #000; padding: 8px; text-align: left; }
+    .signature { margin-top: 20px; }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>COLLECTION & DELIVERY NOTE</h1>
+  </div>
+
+  <div>
+    <span class="section-title">COLLECTION NOTE</span>
+    <p>COLLECTION DATE: {{collection_date}}</p>
+    <p>COLLECTION TIME: {{collection_time}}</p>
+    <p>COLLECTION REF: {{collection_ref}}</p>
+    <p>MUST ENSURE THAT THE COLLECTION REFERENCE AND STOCK ON THIS LIST MATCHES WHAT IS LOADED ON TRUCK.</p>
+    <p>Any issues at site collection call Leanne 07522245194</p>
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th>ITEM</th>
+        <th>QUANTITY COLLECTED</th>
+        <th>SIGNED AT COLLECT</th>
+      </tr>
+    </thead>
+    <tbody>
+      {{#each deliveries}}
+      <tr>
+        <td>{{item}}</td>
+        <td>{{quantity_collected}}</td>
+        <td></td>
+      </tr>
+      {{/each}}
+    </tbody>
+  </table>
+
+  <div class="signature">
+    <p>Signed by driver to confirm that the haulage was collected as above:</p>
+    <p>_________________________________   date:  _____________________</p>
+    <p>Signed by the LWC to confirm stock collected was as above:</p>
+    <p>Sign: ______________________________ name print: _______________________</p>
+    <p>Position: _______________________ date: _____________</p>
+  </div>
+
+  <div>
+    <span class="section-title">DELIVERY NOTE</span>
+    <p>DELIVERY DATE: {{delivery_date}}</p>
+    <p>DELIVERY TIME: {{delivery_time}}</p>
+    <p>OUR REF: {{delivery_ref}}</p>
+    <p>ANY ISSUES AT POINT OF DELIVERY CONTACT LEANNE IMMEDIATELY 07522245194</p>
+    <p>DELIVERY ADDRESS: DECKERS TRADING LTD, Unit F, Royle Pennine Trading Estate, Lynroyle Way, Rochdale, OL11 3EX</p>
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th>ITEM</th>
+        <th>QUANTITY DELIVERED</th>
+        <th>SIGNED AT DROP</th>
+      </tr>
+    </thead>
+    <tbody>
+      {{#each deliveries}}
+      <tr>
+        <td>{{item}}</td>
+        <td>{{quantity_delivered}}</td>
+        <td></td>
+      </tr>
+      {{/each}}
+    </tbody>
+  </table>
+
+  <div class="signature">
+    <p>Signed by driver to confirm that the haulage was delivered to the delivery address:</p>
+    <p>_________________________________   date:  _____________________</p>
+    <p>Signed by the delivery point to confirm that the stock delivered is correct:</p>
+    <p>Sign: ______________________________ name print: _______________________</p>
+    <p>Position: _______________________ date: _____________</p>
+  </div>
+</body>
+</html>

@@ -1,0 +1,101 @@
+/* Dashboard.css */
+.main-content {
+    margin-left: 02px; /* Adjust the margin to accommodate the sidebar */
+    margin-right: 20px; /* Adjust the margin to accommodate the notification feed */
+    padding: 20px;
+  }
+  
+  
+  .dashboard {
+      margin: 20px;
+    }
+    
+    .dashboard h1 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    
+    .dashboard-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+    
+    .order-widget {
+      background-color: #f5f5f5;
+      padding: 20px;
+      border-radius: 4px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      width: 100%;
+      max-width: 800px;
+    }
+    
+    .order-widget h3 {
+      margin-top: 0;
+      margin-bottom: 10px;
+    }
+    
+    .order-widget table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    
+    .order-widget th,
+    .order-widget td {
+      padding: 8px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+    
+    .order-widget th {
+      background-color: #8c919b;
+      color: white;
+    }
+    
+    .order-widget tr:hover {
+      background-color: #f9f9f9;
+    }
+    
+    .error {
+      color: #f44336;
+      margin-bottom: 10px;
+    }
+    
+    .widget {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 4px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      width: 100%;
+      max-width: 400px;
+    }
+    
+    .widget h3 {
+      margin-top: 0;
+      margin-bottom: 10px;
+    }
+    
+    .widget_half_widget {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      gap: 20px;
+      width: 100%;
+    }
+    
+    @media screen and (max-width: 768px) {
+      .dashboard {
+        margin: 10px;
+      }
+    
+      .order-widget,
+      .widget {
+        padding: 10px;
+      }
+    
+      .widget-row {
+        flex-direction: column;
+        align-items: center;
+      }
+    }

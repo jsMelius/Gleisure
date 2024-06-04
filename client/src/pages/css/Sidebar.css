@@ -1,0 +1,141 @@
+/* Sidebar.css */
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    background-color: #f5f5f5;
+    padding: 20px;
+    box-sizing: border-box;
+    position: fixed;
+    left: 0;
+    top: 0;
+  }
+  
+  .sidebar-header {
+    margin-bottom: 20px;
+  }
+  
+  .sidebar-nav {
+    margin-bottom: 20px;
+  }
+  
+  .sidebar-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .sidebar-links li {
+    margin-bottom: 10px;
+  }
+  
+  .sidebar-links a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .sidebar-footer {
+    margin-top: auto;
+  }
+  
+  .sidebar-footer button {
+    margin-bottom: 10px;
+  }
+  
+  .cart-icon {
+    font-size: 24px;
+    color: #333;
+  }
+
+  .sidebar-dashboard {
+    margin-bottom: 20px;
+  }
+  
+  .sidebar-dashboard a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+
+  /* Sidebar.css */
+
+/* ... existing sidebar styles ... */
+
+/* Sidebar.css */
+
+/* ... existing sidebar styles ... */
+
+.sidebar-footer .logout-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.sidebar-footer .logout-button:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.sidebar-footer .logout-icon {
+  font-size: 24px;
+  color: #0f0d0d;
+  transition: color 0.3s ease;
+}
+
+.sidebar-footer .logout-icon:hover {
+  color: #ffcc00;
+}
+
+.sidebar-footer .cart-icon {
+  font-size: 24px;
+  color: #0f0d0d;
+  margin-top: 20px;
+  transition: color 0.3s ease;
+}
+
+.sidebar-footer .cart-icon:hover {
+  color: #ffcc00;
+}
+
+/* Sidebar.css */
+
+/* ... existing sidebar styles ... */
+
+.sidebar-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: auto;
+  padding: 20px;
+}
+
+.sidebar-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.sidebar-icons .cart-icon,
+.sidebar-icons .logout-icon {
+  font-size: 24px;
+  color: #fff;
+  margin: 0 10px;
+  transition: color 0.3s ease;
+}
+
+.sidebar-icons .cart-icon:hover,
+.sidebar-icons .logout-icon:hover {
+  color: #ffcc00;
+}
+
+.sidebar-icons .logout-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}

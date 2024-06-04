@@ -1,0 +1,58 @@
+/* Header.css */
+.header {
+    background-color: #0079A7;
+    color: #fff;
+    padding: 10px 20px;
+  }
+  
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav-links li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .nav-links li:last-child {
+    margin-right: 0;
+  }
+  
+  .nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+  }
+
+  /* .nav-links li a:hover {
+    background-color: #4a4c4e; 
+  } */
+  
+  .logout-container {
+    margin-left: 20px;
+  }
+
+  .logout-container button {
+    margin-right: 10px;
+    padding: 8px;
+    cursor: pointer;
+  }
+  
+  /* .logout-container link {
+    margin-left: 20px;
+  } */
+  
+  .cart-icon {
+    font-size: 24px;
+    cursor: pointer;
+    color: #fff;
+  }

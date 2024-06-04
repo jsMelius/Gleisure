@@ -1,0 +1,118 @@
+/* AddCustomerModal.css */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    max-width: 1250px;
+    width: 1250px;
+  }
+  
+  .modal-title {
+    font-size: 1.5rem;
+    margin: 20px;
+  }
+  
+  .form-control {
+    margin: 20px;
+  }
+  
+  .form-control label {
+    display: block;
+    font-weight: bold;
+    padding-bottom: 8px;
+  }
+
+  .form-control label span {
+    color: #fc0e0e;
+  }
+  
+  .form-control input, select {
+    width: 100%;
+    padding: 8px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .form-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .form-actions button {
+    padding: 8px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .form-actions button.primary {
+    background-color: #0079A7;
+    color: #fff;
+  }
+  
+  .form-actions button.primary:hover {
+    background-color: #49865b;
+  }
+  
+  .form-actions button.secondary {
+    background-color: #ccc;
+    color: #333;
+  }
+  
+  .form-actions button.secondary:hover {
+    background-color: #bbb;
+  }
+  
+  .currency-input {
+    position: relative;
+  }
+  
+  .currency-input::before {
+    content: "£";
+    position: absolute;
+    left: 10px; /* Adjust the position as needed */
+    top: 70%;
+    transform: translateY(-50%);
+    pointer-events: none; /* Ensure the symbol doesn't interfere with input events */
+  }
+
+  .currency-input input {
+    padding-left: 20px;
+  }
+
+  .customer-details {
+    float: left;
+    text-align: left;
+    margin: 20px;
+  }
+
+  @media print {
+    body * {
+      visibility: hidden;
+    }
+    .modal, .modal-content * {
+      visibility: visible;
+    }
+    .modal {
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+  }
+  

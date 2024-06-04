@@ -1,0 +1,115 @@
+.credit-usage-widget {
+    text-align: center;
+  }
+  
+  .credit-usage-widget table {
+    border-collapse: collapse;
+    border: 3px solid #ddd;
+    width: 100%;
+  }
+  
+  .credit-usage-widget td,
+  .credit-usage-widget th {
+    border: 1px solid #ddd;
+    padding: 12px;
+  }
+  
+  .credit-usage-widget tr:hover {
+    background-color: #ddd;
+  }
+  
+  .credit-usage-widget th {
+    padding: 10px;
+    text-align: center;
+    background-color: #8c919b;
+    color: white;
+  }
+  
+  .operation {
+    text-align: center;
+  }
+  
+  .button {
+    border: none;
+    outline: none;
+    font-size: 11px;
+    font-family: "Quicksand", sans-serif;
+    color: #f44336;
+    padding: 3px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 1px solid #f44336;
+    background-color: transparent;
+    margin: 5px;
+  }
+  
+  .button:active {
+    border: 1px solid blue;
+  }
+  
+  .number-box {
+    width: 40px;
+  }
+  
+  .error {
+    color: red;
+    margin-bottom: 10px;
+  }
+  
+  .order-approval-widget {
+    text-align: center;
+  }
+  
+  .order-approval-widget table {
+    border-collapse: collapse;
+    border: 3px solid #ddd;
+    width: 100%;
+  }
+  
+  .order-approval-widget td,
+  .order-approval-widget th {
+    border: 1px solid #ddd;
+    padding: 12px;
+  }
+  
+  .order-approval-widget tr:hover {
+    background-color: #ddd;
+  }
+  
+  .order-approval-widget th {
+    padding: 10px;
+    text-align: center;
+    background-color: #8c919b;
+    color: white;
+  }
+  
+  .operation {
+    text-align: center;
+  }
+  
+  .button {
+    border: none;
+    outline: none;
+    font-size: 11px;
+    font-family: "Quicksand", sans-serif;
+    color: #f44336;
+    padding: 3px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 1px solid #f44336;
+    background-color: transparent;
+    margin: 5px;
+  }
+  
+  .button:active {
+    border: 1px solid blue;
+  }
+  
+  .number-box {
+    width: 40px;
+  }
+  
+  .error {
+    color: red;
+    margin-bottom: 10px;
+  }

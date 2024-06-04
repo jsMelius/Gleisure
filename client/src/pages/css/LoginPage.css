@@ -1,0 +1,39 @@
+.login-container {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    height: 30vh;
+  }
+  
+  .input-container {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .login-button {
+    padding: 10px 20px;
+    background-color: #0079A7;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-button:hover {
+    background-color: #49865b;
+  }
+
+  

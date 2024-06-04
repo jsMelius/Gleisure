@@ -1,0 +1,21 @@
+.notification-feed {
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .notification-feed h3 {
+    margin-bottom: 10px;
+  }
+  
+  .notification-feed ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .notification-feed li {
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin-bottom: 5px;
+  }
+  
